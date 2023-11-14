@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "prac"
+version = "0.1.0"
+description = ""
+authors = ["liying1993 <2071127345@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mkdocs = "^1.5.3"
+jupyterlab = "^4.0.8"
+ptpython = "^3.0.23"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
